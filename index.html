@@ -12,23 +12,41 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Simply Chocolate</title>
   </head>
+
   <body>
     <header class="header">
-      <nav>
-        <a href="/"
-          >SIMPLY CHOCOLATE <img src="./images/logo-icon.svg" alt="logo icon"
+      <nav class="nav">
+        <a class="logo-header link" href="/"
+          ><span class="head-logo-span">SIMPLY</span> CHOCOLATE
+          <img src="./images/logo-icon.svg" alt="logo icon"
         /></a>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="#made">How it’s made?</a></li>
-          <li><a href="#loved">Chocolate is loved</a></li>
-        </ul>
-        <ul>
-          <li>
-            <a href="" aria-label="instagram" target="_blank"></a>
+        <ul class="header-list list">
+          <li class="head-list-item">
+            <a class="head-list link" href="/">Home</a>
           </li>
-          <li>
-            <a href="" aria-label="twitter" target="_blank"></a>
+          <li class="head-list-item">
+            <a class="head-list link" href="#made">How it’s made?</a>
+          </li>
+          <li class="head-list-item">
+            <a class="head-list link" href="#loved">Chocolate is loved</a>
+          </li>
+        </ul>
+        <ul class="head-socials">
+          <li class="head-socials-item">
+            <a
+              class="head-soc-link"
+              href=""
+              aria-label="instagram"
+              target="_blank"
+            ></a>
+          </li>
+          <li class="head-socials-item">
+            <a
+              class="head-soc-link"
+              href=""
+              aria-label="twitter"
+              target="_blank"
+            ></a>
           </li>
         </ul>
       </nav>
@@ -40,28 +58,28 @@
           Treat yourself or a loved one to our finest ingredients for a moment
           of pure delight!
         </h1>
-        <button type="button">Buy now</button>
-        <a href="#made">How it’s made</a>
-        <a href="">scroll down</a>
+        <button class="hero-btn" type="button">Buy now</button>
+        <a class="hero-link link" href="#made">How it’s made</a>
+        <a class="hero-scroll link" href="">scroll down</a>
       </section>
 
-      <section class="Advantages">
-        <h2 hidden>Advantages</h2>
-        <ul>
-          <li>
+      <section class="advantages">
+        <h2 class="visually-hidden">Advantages</h2>
+        <ul class="adv-list link">
+          <li class="adv-item">
             <img src="./images/icons1.svg" alt="Unsurpassed taste" />
-            <h3>Unsurpassed taste</h3>
-            <p>
+            <h3 class="adv-subtitle">Unsurpassed taste</h3>
+            <p class="adv-text">
               Crafted with the finest quality cocoa beans and a dedication to
               perfection, each bite is a decadent experience that simply cannot
               be matched. Savor the richness and complexity of our Unsurpassed
               Taste and discover a new level of chocolate bliss.
             </p>
           </li>
-          <li>
+          <li class="adv-item">
             <img src="./images/icons2.svg" alt="Affordable price" />
-            <h3>Affordable price</h3>
-            <p>
+            <h3 class="adv-subtitle">Affordable price</h3>
+            <p class="adv-text">
               Indulge in high-quality chocolate without breaking the bank with
               Simply Chocolate's selection of affordable treats. Enjoy
               mouth-watering truffles and velvety chocolate bars without
@@ -69,10 +87,10 @@
               affordable luxury today.
             </p>
           </li>
-          <li>
+          <li class="adv-item">
             <img src="./images/icons3.svg" alt="Own production" />
-            <h3>Own production</h3>
-            <p>
+            <h3 class="adv-subtitle">Own production</h3>
+            <p class="adv-text">
               We take pride in our own production process, ensuring that every
               step is carefully crafted to perfection. From selecting the finest
               ingredients to handcrafting each piece, our attention to detail is
@@ -82,46 +100,63 @@
         </ul>
       </section>
 
-      <section class="all-adds">
-        <h2>It all adds up to one exceptional <span>taste</span> sensation</h2>
-        <p>
+      <section class="taste">
+        <h2 class="title-two">
+          It all adds up to one exceptional
+          <span class="span">taste</span> sensation
+        </h2>
+        <p class="taste-text">
           At Simply Chocolate, we believe that the secret to exceptional
           chocolate is in the details. From the sourcing of the finest
           ingredients to the careful crafting of each individual piece, every
           step of our process adds up to one exceptional taste sensation.
         </p>
-        <ul>
-          <li>
+        <ul class="taste-list list">
+          <li class="taste-item">
             <img
               src="./images/milk-chocolate.png"
               alt="Milk chocolate"
               width="206"
               height="160"
+              class="taste-img"
             />
-            <h3>Milk chocolate</h3>
+            <h3 class="taste-subtitle light">Milk chocolate</h3>
           </li>
-          <li>
-            <img src="./images/milk.png" alt="Milk" width="206" height="160" />
-            <h3>Milk</h3>
+          <li class="taste-item">
+            <img
+              src="./images/milk.png"
+              alt="Milk"
+              width="206"
+              height="160"
+              class="taste-img"
+            />
+            <h3 class="taste-subtitle dark">Milk</h3>
           </li>
-          <li>
-            <img src="./images/nuts.png" alt="Nuts" width="206" height="160" />
-            <h3>Nuts</h3>
+          <li class="taste-item">
+            <img
+              src="./images/nuts.png"
+              alt="Nuts"
+              width="206"
+              height="160"
+              class="taste-img"
+            />
+            <h3 class="taste-subtitle light">Nuts</h3>
           </li>
-          <li>
+          <li class="taste-item">
             <img
               src="./images/semi.png"
               alt="Semi - sweet chocolate"
               width="206"
               height="160"
+              class="taste-img"
             />
-            <h3>Semi - sweet chocolate</h3>
+            <h3 class="taste-subtitle dark">Semi - sweet chocolate</h3>
           </li>
         </ul>
       </section>
 
       <section id="made" class="how-made">
-        <h2>how it's <span>made?</span></h2>
+        <h2 class="title-two">how it's <span class="span">made?</span></h2>
         <img
           src="./images/its-made.jpg"
           alt="Whips up liquid chocolate"
@@ -152,7 +187,7 @@
       </section>
 
       <section id="loved" class="loved">
-        <h2><span>Сhocolate</span> is loved</h2>
+        <h2 class="title-two"><span class="span">Сhocolate</span> is loved</h2>
         <ul>
           <li>
             <img
