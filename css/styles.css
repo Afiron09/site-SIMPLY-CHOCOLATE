@@ -13,6 +13,10 @@ body {
 
 .header {}
 
+.container {
+    
+}
+
 .nav {}
 
 .logo-header {
@@ -174,11 +178,11 @@ body {
 
 
 .taste-subtitle.light {
-color: #FFF;
+color: var(--secondary-text-color);
 }
 
 .taste-subtitle.dark {
-color: #111;
+color: var(--main-text-color);
 }
 
 
